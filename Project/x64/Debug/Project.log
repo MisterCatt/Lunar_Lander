@@ -1,0 +1,11 @@
+﻿  Game.cpp
+C:\Users\Daniel\Desktop\temp\SDL2-Plug-n-Play-Kit\Project\Project\Game.cpp(23,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Daniel\Desktop\temp\SDL2-Plug-n-Play-Kit\Project\Project\Game.cpp(23,18): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Daniel\Desktop\temp\SDL2-Plug-n-Play-Kit\Project\Project\Game.cpp(24,20): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Users\Daniel\Desktop\temp\SDL2-Plug-n-Play-Kit\Project\Project\Game.cpp(24,17): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Users\Daniel\Desktop\temp\SDL2-Plug-n-Play-Kit\Project\Project\Game.cpp(45,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Daniel\Desktop\temp\SDL2-Plug-n-Play-Kit\Project\Project\Game.cpp(54,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Daniel\Desktop\temp\SDL2-Plug-n-Play-Kit\Project\Project\Game.cpp(56,15): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Daniel\Desktop\temp\SDL2-Plug-n-Play-Kit\Project\Project\Game.cpp(59,15): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Daniel\Desktop\temp\SDL2-Plug-n-Play-Kit\Project\Project\Game.cpp(61,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Project.vcxproj -> C:\Users\Daniel\Desktop\temp\SDL2-Plug-n-Play-Kit\Project\x64\Debug\Project.exe
