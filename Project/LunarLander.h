@@ -1,11 +1,9 @@
 #pragma once
-class Game
+class LunarLander
 {
-
-
 public:
-	Game();
-	~Game();
+	LunarLander();
+	~LunarLander();
 
 	void Render();
 	void Input();
