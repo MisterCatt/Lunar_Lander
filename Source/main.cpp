@@ -31,26 +31,26 @@ int main(int argc, char** argv)
 {
 	Screen screen(screenWidth, screenHeight, "Galba");
 
-#pragma region Example Code Start - Remove Before Handin!
-	Sound sound = screen.LoadSound("assets/test.ogg");
-	Sprite sprite = screen.LoadSprite("assets/test.bmp");
-	sprite.texture.src = { 10,10,50,50 };
-	sprite.origin = { 25,25 };
-	sprite.angle = 45;
-	sprite.position = { 100,100 };
+//#pragma region Example Code Start - Remove Before Handin!
+//	Sound sound = screen.LoadSound("assets/test.ogg");
+//	Sprite sprite = screen.LoadSprite("assets/test.bmp");
+//	sprite.texture.src = { 10,10,50,50 };
+//	sprite.origin = { 25,25 };
+//	sprite.angle = 45;
+//	sprite.position = { 100,100 };
 
 #pragma endregion;
 
 	int counter = 0;
  	while (screen.IsOpen())
 	{
-		counter++;
+//		counter++;
 		screen.Clear();
-#pragma region Example Code Start - Remove Before Handin!
-		screen.PlaySound(sound);
-		screen.DrawSprite(sprite);
-		screen.DrawText(200, 200, { 255,255,255,255 }, "Testing Scale", 4);
-#pragma endregion;
+//#pragma region Example Code Start - Remove Before Handin!
+//		screen.PlaySound(sound);
+//		screen.DrawSprite(sprite);
+//		screen.DrawText(200, 200, { 255,255,255,255 }, "Testing Scale", 4);
+//#pragma endregion;
 
 		screen.Display();
 	}
